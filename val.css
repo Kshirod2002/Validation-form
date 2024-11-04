@@ -1,0 +1,84 @@
+/* Default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Body styles */
+body{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin: 50px;
+    display: flex; 
+    height: 100vh;
+}
+.reg{
+    font-size: 30px;
+    color: black ;
+    display: flex;
+    justify-content: center;
+
+}
+.reg:hover{
+    color:white
+    
+}
+/* Container styles */
+.container{
+    border: 2px solid black;
+    background-color:#8c738c;
+    box-shadow:3px 14px 15px rgb(0, 170, 255);
+    
+}
+/* Row styles */
+.row{
+    border: 1px solid rgb(29, 170, 235); 
+    height: 40px;
+    margin: 5px;
+}
+/* Hover effect for Rows */
+.row :hover{
+   background-color: #ff00ff;
+   border: 2px solid black;
+   opacity: 0.5;
+   box-shadow: 3px 14px 5px rgb(0, 170, 255);
+
+}
+/* column styles */
+.col{ 
+    height: 40px;
+    background-color:#8c738c;
+    box-shadow: 2px 1px 3px rgb(0, 170, 255);
+}
+/* form styles */
+.form{
+    border: 2px solid black;
+    border-radius: 50px;
+    color:black;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 3px 7px 5px rgb(94, 148, 174);
+    background: linear-gradient(#ff00ff,#8c738c,#738c73)
+}
+/* input field styles */
+.input{
+    cursor: pointer;
+    border-radius: 50px;
+}
+/* Hover effect for input fields */
+.input:hover{
+    border: 2.5px solid black;
+    box-shadow: 3px 7px 5px rgb(207, 28, 180);
+}
+/* Submit button styles */
+.input2{
+    width: 80px;
+    border-radius: 50px;
+    margin-left: 120px;
+}
+/* Hover effect for submit button */
+.input2:hover{
+    border: 2px solid black;
+    box-shadow: 3px 7px 5px rgb(207, 28, 180);
+}
